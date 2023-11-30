@@ -1,0 +1,24 @@
+{
+  "background_color": "#574107",
+  "description": "Application that allows you to search breweries from a database.",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Brewery App",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "Brewery App",
+  "start_url": "/",
+  "theme_color": "#070707",
+  "categories": [
+    "food"
+  ],
+  "screenshots": [],
+  "icons": [],
+  "shortcuts": [
+    {
+      "name": "Home",
+      "url": "https://cmps460final.netlify.app",
+      "description": ""
+    }
+  ]
+}

@@ -1,24 +1,48 @@
 {
-  "background_color": "#574107",
-  "description": "Application that allows you to search breweries from a database.",
-  "dir": "ltr",
-  "display": "standalone",
-  "name": "Brewery App",
-  "orientation": "any",
-  "scope": "/",
-  "short_name": "Brewery App",
-  "start_url": "/",
-  "theme_color": "#070707",
-  "categories": [
-    "food"
-  ],
-  "screenshots": [],
-  "icons": [],
-  "shortcuts": [
+"name": "Brewery Search Application",
+"short_name": "Brewery Search",
+"start_url": "https://cmps460final.netlify.app",
+"display": "standalone",
+"description": "An application that will allow to search for information on breweries",
+"lang": " The default language of your application",
+"dir": "auto",
+"theme_color": "#000000",
+"background_color": "#000000",
+"orientation": "any",
+"icons": [
     {
-      "name": "Home",
-      "url": "https://cmps460final.netlify.app",
-      "description": ""
+        "src": "./images/icon512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "maskable"
+    },
+    {
+        "src": "./images/icon192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any"
     }
-  ]
+],
+"screenshots": [
+    {
+        "src": "./images/Screen Shot.png",
+        "sizes": "2880x1800",
+        "type": "image/png",
+        "description": "A screenshot of the home page"
+    }
+],
+"related_applications": [
+    {
+        "platform":"windows",
+        "url": " The URL to your app in that app store"
+    }
+],
+"prefer_related_applications": false,
+"shortcuts": [
+    {
+        "name":"The name you would like to be displayed for your shortcut",
+        "url":"The url you would like to open when the user chooses this shortcut. This must be a URL local to your PWA. For example: If my start_url is /, this URL must be something like /shortcut",
+        "description":"A description of the functionality of this shortcut"
+    }
+]
 }
